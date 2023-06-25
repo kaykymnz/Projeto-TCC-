@@ -1,0 +1,38 @@
+@import '1-modulos/variables';
+@import '1-modulos/base-scss.scss';
+@import '1-modulos/responsividade-geral';
+@import '1-modulos/scrollbar.scss';
+
+@import '2-componentes/footer.scss';
+@import '2-componentes/header_navbar.scss';
+@import '2-componentes/buttons.scss';
+@import '2-componentes/carrossel.scss';
+
+@import '3-paginas/tela-curso.scss';
+@import '3-paginas/tela-video.sass';
+@import '3-paginas/inicial.css';
+@import '3-paginas/cursos.scss';
+@import '3-paginas/inicial.scss';
+@import '3-paginas/cadastro';
+@import '3-paginas/telaPerfil';
+@import '3-paginas/login.scss';
+@import '3-paginas/cadCurso.scss';
+@import '3-paginas/sobre.sass';
+@import '3-paginas/matricula.scss';
+@import '3-paginas/aviso.scss';
+@import '3-paginas/certificados.sass';
+@import '3-paginas/acessibilidade.sass';
+@import '3-paginas/aula.scss';
+@import '3-paginas/pesquisar.scss';
+@import '3-paginas/pagamento.sass';
+@import '3-paginas/atividade.sass';
+
+@font-face{
+  font-family: 'Cocomat';
+  src: url('./fonts/CocomatPro-Light.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'dance';
+  src: url('./fonts/DancingScript-Regular.otf') format('opentype');
+}

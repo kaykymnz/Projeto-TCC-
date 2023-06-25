@@ -1,0 +1,85 @@
+.caixa-slider{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.swiper {
+    width: 100%;
+    border-bottom: solid 2px black;
+    // background-color: #08305a;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+   margin-bottom: 20px;
+
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        margin: 10px;
+    }
+}
+.swiper-slide:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.txtCursosSlider p{
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}
+.swiper {
+    width: 100%;
+    margin: 20px auto;
+    align-items: center;
+
+}
+
+.append-buttons {
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+
+.append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+.container-carrossel{
+    padding: 5px;
+
+    img{
+        width: 300px;
+         max-height: 190px;
+        // width: 100%;
+        margin-top: 5px;
+        border-radius: 5px;
+        -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    }
+    p{
+        padding: 10px;
+        text-align: justify;
+    }
+
+}

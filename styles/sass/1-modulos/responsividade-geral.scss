@@ -1,0 +1,38 @@
+@mixin mobile{
+  @media (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin tablet{
+  @media (max-width: 900px) {
+    @content;
+  }
+}
+
+@mixin notebook{
+  @media (max-width: 1280px){
+    @content;
+  }
+}
+
+@mixin monitor{
+  @media (max-width:1400px){
+    @content;
+  }
+}
+
+
+//gambiarra para o menu hamburguer
+
+@mixin mobile-2{
+  @media (min-width: 500) {
+    @content;
+  }
+}
+
+@mixin tablet-2{
+  @media (min-width: 900) {
+    @content;
+  }
+}
